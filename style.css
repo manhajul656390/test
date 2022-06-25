@@ -1,0 +1,60 @@
+/* selector {
+            property: value;
+            property: value;
+        } */
+/* tagName, className, idName */
+a {
+  font-size: 30px;
+  text-decoration: none;
+  background: red;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.className {
+  font-size: 30px;
+  text-decoration: none;
+  background: rgb(0, 139, 0);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#youtube-btn {
+  font-size: 30px;
+  text-decoration: none;
+  background: rgb(131, 202, 0);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+p {
+  background: red;
+  color: white;
+  margin: 30px;
+  /* padding: 20px 5px 40px 30px; */
+  padding-top: 20px;
+  padding-left: 30px;
+  border-radius: 10px 0px 0px 0px;
+}
+
+.parent {
+  background: yellow;
+  height: 30px;
+}
+
+.child {
+  width: 50%;
+  height: 30px;
+  float: left;
+}
+
+.child1 {
+  background: rgb(0, 139, 0);
+}
+
+.child2 {
+  background: rgb(139, 83, 0);
+}
